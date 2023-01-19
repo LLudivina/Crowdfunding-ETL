@@ -1,10 +1,10 @@
 # Crowdfunding-ETL
 # Overview of Project
 
-In this module, we were introduced to a crowdfunding platform called Independent Funding.  Once the platform became more popular for funding independent projects, data needed to be stored in a database.  Hence, we were tasked with helping, Britta, a junior SQL developer, move the data to a database and generate reports for stakeholders.  This way, we also learn about the extract, transform, and load (ETL) process used to create a data pipeline.  However, towards the end of the ETL process, new data was received and had to be analyzed.  
+In this module, we were introduced to a crowdfunding platform called Independent Funding.  Once the platform became more popular for funding independent projects, data needed to be stored in a database.  Hence, we were tasked with helping, Britta, a junior SQL developer, move the data to a database and generate reports for stakeholders.  This way, we also learned about the extract, transform, and load (ETL) process used to create a data pipeline.  However, towards the end of the ETL process, new data was received and had to be analyzed.  
 
 ## Purpose
-The purpose of this project was to carry out the ETL process and data analysis on the new dataset from the backers info that have pledged to the live projects. 
+The purpose of this project was to carry out the ETL process and data analysis on the new dataset from the backers info that had pledged to the live projects. 
 
 # Results
 The extract and transform phases were done using Python, Pandas, and Jupyter notebook.  Once the data was collected and cleaned, an entity relationship diagram (ERD) and table schema were created as a guide for storing the data in a database that was created using PostgressSQL.  
