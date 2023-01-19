@@ -12,7 +12,8 @@ The extract and transform phases were done using Python, Pandas, and Jupyter not
 When updating the ERD and table schema, the primary and foreign keys from the backers csv file had to be carefully checked to confirm that they referenced the relevant table.  As seen in Figure 1, the Backers foreign key (cf_id) references the Campaign table's primary key (cf_id).
 
 ## *Figure 1*
-![Alt text](resources/crowdfunding_db_relationships.png)
+
+![crowdfunding_db_relationships](https://user-images.githubusercontent.com/115508896/213382695-b0ee8b1f-9dac-46c4-86e9-b989b86b01e0.png)
 
 As a visual piece of information, the ERD came in handy when loading the data into the tables in pgAdmin 4. This is because as mentioned in the module tables referenced by a foreign key constraint on another table, must be imported first or we get an error message.  There are other things to consider as well. For example, it took me a while to figure out how to import the data for the campaign table because there was an extra column that went unnoticed.  Once I went back and corrected the mistake, data importing was a success.  Once all the data was imported into the corresponding tables, an SQL Analysis was conducted to create a final table with information about the remaining goal amounts.
 
